@@ -7,6 +7,11 @@ huruf_unik = "@#_&-+!?%"
 
 semua = huruf_kecil + huruf_besar + angka + huruf_unik
 
-kata_acak = ''.join(random.sample(semua,12))
+kata_acak = "".join(random.sample(semua,12))
 
-print(f"inilah : {kata_acak} ")
+while True:
+  kata = input()
+  if kata == (kata):
+    print(kata_acak)
+    break
+    
